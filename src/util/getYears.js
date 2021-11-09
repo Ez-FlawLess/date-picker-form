@@ -11,8 +11,6 @@ const getYears = () => {
             currentYear = currentYear + numbersMapReverse[persianYearString[i]]
         }
 
-        console.log(currentYear)
-
         currentYear = +currentYear;
 
         let lastYearsArray = [];

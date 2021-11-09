@@ -21,7 +21,6 @@ const DatePicker = () => {
         const { lastYearsArray, currentYear } = getYears()
         setYears(lastYearsArray)
         setCurrentYearState(currentYear)
-        console.log(days)
     }, [])
 
     const handleYearChange = (event) => {
